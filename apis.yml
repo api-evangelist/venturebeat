@@ -1,13 +1,12 @@
 aid: venturebeat
-url: 
-  https://raw.githubusercontent.com/api-evangelist/venturebeat/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/venturebeat/refs/heads/main/apis.yml
 apis: []
 name: VentureBeat
 tags:
-  - Media
-  - Technology News
   - AI
   - Enterprise
+  - Media
+  - Technology News
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
