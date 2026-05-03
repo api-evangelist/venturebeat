@@ -1,0 +1,24 @@
+{
+  "title": "VentureBeat RSS Article Structure",
+  "description": "Structural documentation for a VentureBeat article as delivered via RSS 2.0",
+  "type": "object",
+  "fields": [
+    { "name": "title", "type": "string", "description": "Article headline" },
+    { "name": "link", "type": "string", "description": "Canonical article URL" },
+    { "name": "guid", "type": "string", "description": "Globally unique article identifier" },
+    { "name": "pubDate", "type": "string", "description": "RFC 822 publication date" },
+    { "name": "description", "type": "string", "description": "Full article body as HTML CDATA" },
+    { "name": "author", "type": "string", "description": "Author email and name" },
+    { "name": "category", "type": "string|array", "description": "Editorial category/categories" },
+    {
+      "name": "enclosure",
+      "type": "object",
+      "description": "Featured image attachment",
+      "fields": [
+        { "name": "url", "type": "string", "description": "Image URL" },
+        { "name": "type", "type": "string", "description": "MIME type" },
+        { "name": "length", "type": "integer", "description": "File size in bytes" }
+      ]
+    }
+  ]
+}

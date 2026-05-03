@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/venturebeat/main/json-schema/venturebeat-article-schema.json",
+  "title": "VentureBeat Article",
+  "description": "Schema for a VentureBeat news article as delivered via RSS 2.0 feed.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Article headline"
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL of the article on venturebeat.com"
+    },
+    "guid": {
+      "type": "string",
+      "description": "Globally unique identifier for the article (typically same as link)"
+    },
+    "pubDate": {
+      "type": "string",
+      "description": "Publication date in RFC 822 format"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full article content in HTML format (CDATA)"
+    },
+    "author": {
+      "type": "string",
+      "description": "Author email and name (e.g., 'email@venturebeat.com (Author Name)')"
+    },
+    "category": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ],
+      "description": "Editorial category or categories (e.g., AI, Security, Enterprise)"
+    },
+    "enclosure": {
+      "type": "object",
+      "description": "Associated featured image",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Image URL"
+        },
+        "type": {
+          "type": "string",
+          "description": "MIME type (e.g., image/jpeg)"
+        },
+        "length": {
+          "type": "integer",
+          "description": "File size in bytes"
+        }
+      }
+    }
+  },
+  "required": ["title", "link", "guid", "pubDate"]
+}

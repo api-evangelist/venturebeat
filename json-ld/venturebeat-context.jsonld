@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "vb": "https://venturebeat.com/vocab/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "NewsArticle": "schema:NewsArticle",
+    "TechMediaOrganization": "schema:NewsMediaOrganization",
+    "Author": "schema:Person",
+    "EditorialCategory": "schema:itemListElement",
+
+    "articleId": "schema:identifier",
+    "title": "schema:headline",
+    "link": "schema:url",
+    "guid": "schema:identifier",
+    "description": "schema:description",
+    "fullContent": "schema:articleBody",
+    "author": "schema:author",
+    "authorEmail": "schema:email",
+    "pubDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:dateTime"
+    },
+    "modifiedDate": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+    "category": "schema:articleSection",
+    "tags": "schema:keywords",
+    "enclosure": "schema:image",
+    "enclosureUrl": "schema:contentUrl",
+    "enclosureType": "schema:encodingFormat",
+
+    "feedTitle": "schema:name",
+    "feedLink": "schema:url",
+    "feedDescription": "schema:description",
+    "feedLanguage": "schema:inLanguage",
+    "lastBuildDate": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    },
+
+    "organization": "schema:Organization",
+    "orgName": "schema:name",
+    "orgUrl": "schema:url",
+    "foundingDate": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:date"
+    },
+    "headquarters": "schema:location"
+  }
+}

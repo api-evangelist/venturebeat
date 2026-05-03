@@ -1,0 +1,104 @@
+title: VentureBeat Vocabulary
+description: >-
+  Domain vocabulary for VentureBeat covering technology journalism, AI and enterprise
+  technology coverage categories, content types, and media industry concepts.
+created: '2026-05-03'
+modified: '2026-05-03'
+terms:
+  - term: VentureBeat
+    definition: >-
+      A technology news and media company covering artificial intelligence, enterprise
+      technology, gaming, and business innovation. Founded in 2006.
+    tags:
+      - Media
+      - Technology News
+
+  - term: Artificial Intelligence
+    definition: >-
+      Coverage of AI models, machine learning systems, large language models (LLMs),
+      generative AI applications, and AI infrastructure. A primary VentureBeat
+      editorial focus area.
+    tags:
+      - AI
+      - Editorial
+
+  - term: Enterprise Technology
+    definition: >-
+      Coverage of business software, cloud platforms, SaaS applications, and
+      technology used by large organizations to run operations.
+    tags:
+      - Enterprise
+      - Technology
+
+  - term: RSS Feed
+    definition: >-
+      Really Simple Syndication — an XML-based web feed format used to publish
+      frequently updated content. VentureBeat publishes RSS 2.0 feeds by category.
+    tags:
+      - Content
+      - Syndication
+      - RSS
+
+  - term: VB Transform
+    definition: >-
+      VentureBeat's flagship annual technology conference focused on AI and
+      enterprise transformation, featuring industry leaders and applied AI sessions.
+    tags:
+      - Events
+      - Conference
+
+  - term: VentureBeat Membership
+    definition: >-
+      Paid subscription tier providing access to premium VentureBeat content,
+      research reports, and exclusive briefings.
+    tags:
+      - Subscription
+      - Premium Content
+
+  - term: GamesBeat
+    definition: >-
+      VentureBeat's gaming vertical covering video game industry news, business,
+      and culture.
+    tags:
+      - Gaming
+      - Editorial
+
+  - term: Special Issue
+    definition: >-
+      Themed editorial packages VentureBeat publishes on focused technology topics
+      such as generative AI, cloud security, or digital transformation.
+    tags:
+      - Content
+      - Editorial
+
+  - term: Content Syndication
+    definition: >-
+      The licensing and distribution of VentureBeat editorial content to third-party
+      publishers, platforms, or enterprise knowledge bases.
+    tags:
+      - Content
+      - Licensing
+
+  - term: Media Kit
+    definition: >-
+      VentureBeat's advertising and sponsorship documentation including audience
+      demographics, content opportunities, and rate cards.
+    tags:
+      - Advertising
+      - Media
+
+  - term: Byline
+    definition: >-
+      The author attribution line on a VentureBeat article identifying the
+      journalist or contributor responsible for the content.
+    tags:
+      - Content
+      - Journalism
+
+  - term: Editorial Category
+    definition: >-
+      VentureBeat's content taxonomy including AI, Enterprise, Security,
+      Programming & Development, Games, and other coverage verticals.
+    tags:
+      - Content
+      - Taxonomy

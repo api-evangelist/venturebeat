@@ -1,15 +1,29 @@
 aid: venturebeat
-url: https://raw.githubusercontent.com/api-evangelist/venturebeat/refs/heads/main/apis.yml
-apis: []
 name: VentureBeat
+description: >-
+  VentureBeat is a leading technology news and media company covering artificial
+  intelligence, enterprise technology, gaming, and the business of innovation.
+  Founded in 2006 and based in San Francisco, VentureBeat does not offer a public
+  developer REST API but provides content access via RSS feeds and content
+  licensing. Its editorial coverage spans AI, machine learning, cloud computing,
+  cybersecurity, and digital transformation for business leaders and technologists.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - Enterprise
   - Media
   - Technology News
-type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-access: 3rd-Party
+  - Content
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/venturebeat/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-05-03'
+specificationVersion: '0.19'
+apis: []
+
 common:
   - url: https://venturebeat.com/
     name: VentureBeat Website
@@ -25,6 +39,12 @@ common:
     type: RSS
   - url: https://venturebeat.com/category/ai/feed/
     name: VentureBeat AI RSS Feed
+    type: RSS
+  - url: https://venturebeat.com/category/enterprise/feed/
+    name: VentureBeat Enterprise RSS Feed
+    type: RSS
+  - url: https://venturebeat.com/category/security/feed/
+    name: VentureBeat Security RSS Feed
     type: RSS
   - url: https://venturebeat.com/venturebeat-membership-plans/
     name: VentureBeat Membership
@@ -50,10 +70,7 @@ common:
   - url: https://www.linkedin.com/company/venturebeat
     name: VentureBeat on LinkedIn
     type: LinkedIn
-created: '2026-03-24'
-modified: '2026-03-24'
-specificationVersion: '0.19'
-description: >-
-  VentureBeat is a leading source for transformative tech news and events that provide
-  deep context to help business leaders make smart decisions and stay on top of breakthrough
-  technology trends.
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
