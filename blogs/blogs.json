@@ -1,0 +1,31 @@
+{
+  "repo": "venturebeat",
+  "feeds": [
+    {
+      "source": "https://venturebeat.com/feed",
+      "feed_url": "https://venturebeat.com/feed",
+      "saved": 7,
+      "title": "VentureBeat"
+    },
+    {
+      "source": "https://venturebeat.com/category/ai/feed/",
+      "feed_url": "https://venturebeat.com/category/ai/feed/",
+      "saved": 7,
+      "title": "AI | VentureBeat"
+    },
+    {
+      "source": "https://venturebeat.com/category/enterprise/feed/",
+      "feed_url": "https://venturebeat.com/category/enterprise/feed/",
+      "saved": 7,
+      "title": "Enterprise | VentureBeat"
+    },
+    {
+      "source": "https://venturebeat.com/category/security/feed/",
+      "feed_url": "https://venturebeat.com/category/security/feed/",
+      "saved": 7,
+      "title": "Security | VentureBeat"
+    }
+  ],
+  "post_count": 28,
+  "fetched": "2026-05-03T23:38:02Z"
+}
