@@ -4,28 +4,28 @@
     {
       "source": "https://venturebeat.com/feed",
       "feed_url": "https://venturebeat.com/feed",
-      "saved": 7,
-      "title": "VentureBeat"
+      "title": "VentureBeat",
+      "saved": 7
     },
     {
       "source": "https://venturebeat.com/category/ai/feed/",
       "feed_url": "https://venturebeat.com/category/ai/feed/",
-      "saved": 7,
-      "title": "AI | VentureBeat"
+      "title": "AI | VentureBeat",
+      "saved": 0
     },
     {
       "source": "https://venturebeat.com/category/enterprise/feed/",
       "feed_url": "https://venturebeat.com/category/enterprise/feed/",
-      "saved": 7,
-      "title": "Enterprise | VentureBeat"
+      "title": "Enterprise | VentureBeat",
+      "saved": 0
     },
     {
       "source": "https://venturebeat.com/category/security/feed/",
       "feed_url": "https://venturebeat.com/category/security/feed/",
-      "saved": 7,
-      "title": "Security | VentureBeat"
+      "title": "Security | VentureBeat",
+      "saved": 3
     }
   ],
-  "post_count": 28,
-  "fetched": "2026-05-03T23:38:02Z"
+  "post_count": 38,
+  "fetched": "2026-05-09T20:17:51Z"
 }
