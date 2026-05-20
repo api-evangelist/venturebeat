@@ -11,21 +11,21 @@
       "source": "https://venturebeat.com/category/ai/feed/",
       "feed_url": "https://venturebeat.com/category/ai/feed/",
       "title": "AI | VentureBeat",
-      "saved": 0
+      "saved": 7
     },
     {
       "source": "https://venturebeat.com/category/enterprise/feed/",
       "feed_url": "https://venturebeat.com/category/enterprise/feed/",
       "title": "Enterprise | VentureBeat",
-      "saved": 0
+      "saved": 7
     },
     {
       "source": "https://venturebeat.com/category/security/feed/",
       "feed_url": "https://venturebeat.com/category/security/feed/",
       "title": "Security | VentureBeat",
-      "saved": 3
+      "saved": 5
     }
   ],
-  "post_count": 38,
-  "fetched": "2026-05-09T20:17:51Z"
+  "post_count": 64,
+  "fetched": "2026-05-17T20:20:35Z"
 }
