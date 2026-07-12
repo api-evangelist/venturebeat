@@ -25,6 +25,8 @@ specificationVersion: '0.19'
 apis: []
 
 common:
+  - type: DomainSecurity
+    url: security/venturebeat-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/VentureBeat
   - url: https://venturebeat.com/
