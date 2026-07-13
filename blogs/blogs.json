@@ -5,7 +5,7 @@
       "source": "https://venturebeat.com/feed",
       "feed_url": "https://venturebeat.com/feed",
       "title": "",
-      "saved": 7,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -26,10 +26,10 @@
       "source": "https://venturebeat.com/category/security/feed/",
       "feed_url": "https://venturebeat.com/category/security/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "feed"
     }
   ],
-  "post_count": 96,
-  "fetched": "2026-06-27T12:03:07Z"
+  "post_count": 111,
+  "fetched": "2026-07-11T11:50:51Z"
 }
