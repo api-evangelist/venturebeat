@@ -23,6 +23,12 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/venturebeat.png
 tags:
+  - Artificial Intelligence
+  - Enterprise
+  - Media
+  - Technology News
+  - Content
+tags_raw:
   - AI
   - Enterprise
   - Media
