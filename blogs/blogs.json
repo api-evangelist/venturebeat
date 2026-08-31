@@ -5,7 +5,7 @@
       "source": "https://venturebeat.com/feed",
       "feed_url": "https://venturebeat.com/feed",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "feed"
     },
     {
@@ -30,6 +30,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 172,
-  "fetched": "2026-08-22T20:20:02Z"
+  "post_count": 183,
+  "fetched": "2026-08-30T22:33:40Z"
 }
